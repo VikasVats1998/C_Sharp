@@ -1,0 +1,23 @@
+using System;
+namespace operators
+{
+    class operators
+    {
+        public static void Main(string[] args)
+        {
+           
+            Console.WriteLine("<------------------Operators---------------------->");
+            //Arithmatic operator
+            float qty = 5.0f;
+            int fat = 90;
+            float rate = 60f;
+            float price = (qty*fat*rate)/100;
+            Console.WriteLine("Price : "+price);
+
+            
+
+
+
+        }
+    }
+}
